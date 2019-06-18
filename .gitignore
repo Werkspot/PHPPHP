@@ -1,2 +1,69 @@
-vendor
-test.php
+# Misc
+.DS_Store
+.idea
+.project
+/composer.phar
+/doc/_build
+/load-tests/create-sr-scenarios/
+!/**/.gitkeep
+/.vscode/
+.env
+.css
+
+# WWW
+!/src/*/*/Resources/translations/.keep
+/config/parameters/*/parameters.yaml
+/config/parameters.yaml
+/bin/symfony_requirements
+/build/
+/coverage/
+/.helm/parameters_*.yaml
+/node_modules/
+/src/*/*/Resources/translations/*
+/var/*
+/vendor/
+/web/.htaccess
+/web/b/statsd.ini
+/web/bundles/
+/web/images
+/web/public/
+/npm-debug.log
+/web/node_modules
+/.php_cs
+/.php_cs.cache
+/src/Domain/Test/Unit/_assets/elastic_search
+/Makefile.custom
+/.deptrac.cache
+
+# COMPILED ASSETS
+/web/assets/js/admin.opt.js
+/web/assets/js/main.opt.js
+/web/assets/compiled/
+
+# CodeCeption
+/tests/_output/
+/tests/acceptance.suite.yml
+/tests/acceptance/AcceptanceTester.php
+/tests/_support/_generated/
+
+###> maba/webpack-bundle ###
+/node_modules/
+###< maba/webpack-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+###< phpunit/phpunit ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php_cs
+/.php_cs.cache
+###< friendsofphp/php-cs-fixer ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> helm ###
+.helm/parameters.yaml
+###< helm ###
